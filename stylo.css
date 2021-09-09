@@ -1,0 +1,109 @@
+body {
+    background-color: linen;
+}
+
+#img_header {
+    display: flex;
+    margin: auto;
+    width: 95%;
+    border: 1px solid;
+    border-radius: 5px;
+    height: 50px;
+}
+
+section {
+    background-color:rebeccapurple;
+    width: 95%;
+    height: 567px;
+    margin: 10px auto;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+#jogo {
+    width: 100%;
+}
+
+#jogo figure img {
+    width: 90%;
+    margin: 5px auto;
+    display: flex;
+    height: 150px;
+    margin-top: 0px;
+    border-radius: 5px;
+    border: 2px solid goldenrod;
+}
+
+#jogo figure h4 {
+text-align: center;
+margin: 5px;
+}
+
+
+h1{
+    text-align: center;
+    color: white;
+
+}
+
+#jogo_ia{
+
+}
+
+#jogo_humano {}
+
+#escolha{
+    display: flex;
+    background: black;
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+    justify-content: space-around;
+    
+}
+
+p{
+    color: white;
+    margin-top: 3px;
+    text-align: center;
+}
+
+#escolha img{
+
+    height: 50px;
+}
+
+@media (min-width:769px){
+    section {
+    
+       
+        height: 750px;
+       
+
+    }
+
+    #jogo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(50%);
+    }
+
+    #img_header {
+        height: 80px;
+    }
+
+    #escolha{
+        transform: translateY(240%);
+        
+    }
+
+    #jogo figure img {
+ 
+        height: 300px;
+    }
+
+}
+
+
+
